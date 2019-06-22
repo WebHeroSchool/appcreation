@@ -12,19 +12,20 @@
 <body>
    <div class="wrapper">
     <header class="header">
-       <a href="html/mobile.html" class="menu__btn_mobile"></a>
-        <nav class="menu">
-           <div class="menu__logo">
-           <img src="../image/Group15.png" alt="" class="menu__image">
+        <div class="header__logo">
+           <img src="../image/Group15.png" alt="" class="header__logo_img">
+           </div>
+        
+           <div class ="header__menu"> <!-- button for media query (>580px) -->
+           <a href="html/mobile.html" class="header__menu_btn"></a>
            </div>
            
-            <div class="menu_right"> 
+        <nav class="menu"> 
             <a href="#" class="menu__item">start</a>
             <a href="#" class="menu__item">services</a>
             <a href="#" class="menu__item">about</a>
             <a href="#" class="menu__item">blog</a>
             <a href="#" class="menu__item">contact us</a>
-            </div> 
         </nav>
         
     </header>
@@ -32,12 +33,12 @@
     <main class="main">
     
     <div class="container">
-    <h1 class="title">Building an&nbsp;App<span class="title_background"> Without Design Expertise?</span></h1>
-    <p class="description">
-    I help tech startups design better&nbsp;digital products without hiring a full&nbsp;-&nbsp;time&nbsp;designer
+    <h1 class="container__title">Building an&nbsp;App<span class="container__title_background"> Without Design Expertise?</span></h1>
+    <p class="container__description">
+    I help tech startups design better digital&nbsp;<span class="container__description_less"></span>products without hiring a <span class="container__description_less-mobile"></span> full-time&nbsp;designer
     </p>
     
-    <button type="submit" class="button">
+    <button type="submit" class="container__button">
     Schedule free consultation
     </button>
     </div>
@@ -45,7 +46,11 @@
     <img src="../image/Frame.png" alt="" class="main__image">
     
     </main>
-
+    
+    <footer>
+        <div class="footer__img"></div>
+    </footer>
+    
 </div>
 
 </body>
