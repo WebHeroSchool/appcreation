@@ -1,0 +1,135 @@
+@media (max-width: 641px) {
+    .wrapper {
+        max-width: 85%;
+    }
+    
+    .header {
+        margin-bottom: 0;
+        position: relative;
+        background: url(../image/Group2.png);
+        background-repeat: no-repeat;
+        background-position: 0% 50%;
+        
+        height: 85px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        
+        margin-right: 5%;
+    }
+    
+    
+    .header__logo_img {
+        display: none;
+    }
+    
+    .menu__item {
+        display: none;
+    }
+    
+    /*
+    .header__menu_btn,
+    .header__menu_btn::before,
+    .header__menu_btn::after {
+        position: absolute;
+        width: 25px;
+        height: 3px;
+        background-color: #0056EC;
+    }
+
+   .header__menu_btn::before,
+   .header__menu_btn::after {
+        content: '';
+    }
+
+    .header__menu_btn::before {
+        transform: translateY(5px);
+    }
+
+    .header__menu_btn::after {
+        transform: translateY(-5px);
+    }
+    
+   .header__menu_btn:active {
+        height: 0;
+    }
+
+    .header__menu_btn:active:before {
+        transform: rotate(45deg);
+    }
+    
+    .header__menu_btn:active:after {
+        transform: rotate(-45deg);
+    }
+    */
+    
+    .header__menu_btn,
+    .header__menu_btn::before,
+    .header__menu_btn::after {
+        position: absolute;
+        width: 25px;
+        height: 3px;
+        background-color: #0056EC;
+    }
+
+    .header__menu_btn::before,
+    .header__menu_btn::after {
+        content: '';
+    }
+
+    .header__menu_btn::before {
+        transform: translateY(5px);
+    }
+
+    .header__menu_btn::after {
+        transform: translateY(-5px);
+    }
+    
+    .main {
+        margin-top: 0;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        align-content: flex-start
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .container__title {
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+    }
+    
+    .container__description {
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+    }
+    
+    .container__description_less-mobile {
+        display: block;
+    }
+        
+    .container__description_less {
+        display: none;
+        
+        margin: 0;
+        padding: 0;
+    }
+    
+    .main__image {
+        width: 280px;
+        height: 239px;
+    }
+    
+    .container__button {
+        margin-top: 25px;
+        
+    }
+
+}
