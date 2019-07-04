@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Black.ttf');
+    src: url('../fonts/Roboto/Roboto-Bold.ttf');
+    src: url('../fonts/Roboto/Roboto-Medium.ttf');
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'PT Serif';
+    src: url('../fonts/PT/PT_Serif-Web-Bold.ttf');
+    src: url('../fonts/PT/PT_Serif-Web-Regular.ttf');
+}
